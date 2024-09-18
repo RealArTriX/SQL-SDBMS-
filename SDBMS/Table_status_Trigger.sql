@@ -1,0 +1,13 @@
+DELIMITER //
+
+CREATE TRIGGER assign_status
+BEFORE INSERT ON students
+FOR EACH ROW
+BEGIN
+	IF YEAR(NEW.stu_Separation_date) <= 2024 THEN
+		SET NEW.stu_status = 'NOT ACTIVE';
+	END IF;
+END;
+//
+
+DELIMITER ;

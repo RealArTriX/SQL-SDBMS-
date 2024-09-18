@@ -1,0 +1,167 @@
+UPDATE Branch SET brn_name = 'DSE', brn_ctg = 'B.Tech' WHERE brn_id = 1001;
+UPDATE Branch SET brn_name = 'IT', brn_ctg = 'B.Tech' WHERE brn_id = 1002;
+UPDATE Branch SET brn_name = 'CSE', brn_ctg = 'B.Tech' WHERE brn_id = 1003;
+UPDATE Branch SET brn_name = 'AIML', brn_ctg = 'B.Tech' WHERE brn_id = 1004;
+UPDATE Branch SET brn_name = 'ECE', brn_ctg = 'B.Tech' WHERE brn_id = 1005;
+
+UPDATE permissions SET pr_role_id = 10101 where pr_id = 151;
+UPDATE permissions SET pr_role_id = 10102 where pr_id = 152;
+UPDATE permissions SET pr_role_id = 10103 where pr_id = 153;
+UPDATE permissions SET pr_role_id = 10104 where pr_id = 154;
+UPDATE permissions SET pr_role_id = 10105 where pr_id = 155;
+
+UPDATE login SET lgn_usr_id = 101 where lgn_id = 711;
+UPDATE login SET lgn_usr_id = 102 where lgn_id = 712;
+UPDATE login SET lgn_usr_id = 103 where lgn_id = 713;
+UPDATE login SET lgn_usr_id = 104 where lgn_id = 714;
+UPDATE login SET lgn_usr_id = 105 where lgn_id = 715;
+UPDATE login SET lgn_usr_id = 106 where lgn_id = 716;
+UPDATE login SET lgn_usr_id = 107 where lgn_id = 717;
+UPDATE login SET lgn_usr_id = 108 where lgn_id = 718;
+UPDATE login SET lgn_usr_id = 109 where lgn_id = 719;
+UPDATE login SET lgn_usr_id = 110 where lgn_id = 720;
+
+UPDATE login SET lgn_role_id = 10101 WHERE lgn_id = 712;
+UPDATE login SET lgn_role_id = 10102 WHERE lgn_id = 717; 
+UPDATE login SET lgn_role_id = 10103 WHERE lgn_id = 718; 
+UPDATE login SET lgn_role_id = 10103 WHERE lgn_id = 714; 
+UPDATE login SET lgn_role_id = 10102 WHERE lgn_id = 713; 
+UPDATE login SET lgn_role_id = 10103 WHERE lgn_id = 716; 
+UPDATE login SET lgn_role_id = 10103 WHERE lgn_id = 719; 
+UPDATE login SET lgn_role_id = 10103 WHERE lgn_id = 715; 
+UPDATE login SET lgn_role_id = 10102 WHERE lgn_id = 711; 
+UPDATE login SET lgn_role_id = 10102 WHERE lgn_id = 720;
+
+UPDATE books SET book_brn_id = 1001 WHERE book_id = 11;
+UPDATE books SET book_brn_id = 1001 WHERE book_id = 14;
+UPDATE books SET book_brn_id = 1002 WHERE book_id = 12;
+UPDATE books SET book_brn_id = 1002 WHERE book_id = 13;
+UPDATE books SET book_brn_id = 1003 WHERE book_id = 15;
+UPDATE books SET book_brn_id = 1003 WHERE book_id = 16;
+
+UPDATE issues SET isu_book_id = 12 WHERE isu_id = 001; 
+UPDATE issues SET isu_book_id = 16 WHERE isu_id = 002; 
+UPDATE issues SET isu_book_id = 11 WHERE isu_id = 003; 
+UPDATE issues SET isu_book_id = 15 WHERE isu_id = 004; 
+UPDATE issues SET isu_book_id = 13 WHERE isu_id = 005; 
+
+UPDATE issues SET isu_stu_id = 913 WHERE isu_id = 001; 
+UPDATE issues SET isu_stu_id = 917 WHERE isu_id = 002; 
+UPDATE issues SET isu_stu_id = 915 WHERE isu_id = 003; 
+UPDATE issues SET isu_stu_id = 911 WHERE isu_id = 004; 
+UPDATE issues SET isu_stu_id = 919 WHERE isu_id = 005;
+
+UPDATE students SET stu_join_date = '2021-11-09' WHERE stu_id = 910;
+UPDATE students SET stu_join_date = '2021-11-11' WHERE stu_id = 911;
+UPDATE students SET stu_join_date = '2021-11-07' WHERE stu_id = 912;
+UPDATE students SET stu_join_date = '2021-11-11' WHERE stu_id = 913;
+UPDATE students SET stu_join_date = '2021-11-11' WHERE stu_id = 914;
+UPDATE students SET stu_join_date = '2021-11-09' WHERE stu_id = 915;
+UPDATE students SET stu_join_date = '2021-11-13' WHERE stu_id = 916;
+UPDATE students SET stu_join_date = '2021-11-11' WHERE stu_id = 917;
+UPDATE students SET stu_join_date = '2021-11-07' WHERE stu_id = 918;
+UPDATE students SET stu_join_date = '2021-11-15' WHERE stu_id = 919;
+UPDATE students SET stu_join_date = '2021-11-15' WHERE stu_id = 920;
+
+UPDATE students SET stu_separation_date = '2025-11-09' WHERE stu_id = 910;
+UPDATE students SET stu_separation_date = '2024-11-11' WHERE stu_id = 911;
+UPDATE students SET stu_separation_date = '2025-11-07' WHERE stu_id = 912;
+UPDATE students SET stu_separation_date = '2024-11-11' WHERE stu_id = 913;
+UPDATE students SET stu_separation_date = '2024-11-11' WHERE stu_id = 914;
+UPDATE students SET stu_separation_date = '2025-11-09' WHERE stu_id = 915;
+UPDATE students SET stu_separation_date = '2025-11-13' WHERE stu_id = 916;
+UPDATE students SET stu_separation_date = '2024-11-11' WHERE stu_id = 917;
+UPDATE students SET stu_separation_date = '2025-11-07' WHERE stu_id = 918;
+UPDATE students SET stu_separation_date = '2024-11-15' WHERE stu_id = 919;
+UPDATE students SET stu_separation_date = '2024-11-15' WHERE stu_id = 920;
+
+UPDATE students SET stu_status = 'ACTIVE' WHERE stu_id = 910;
+UPDATE students SET stu_status = 'ACTIVE' WHERE stu_id = 911;
+UPDATE students SET stu_status = 'ACTIVE' WHERE stu_id = 912;
+UPDATE students SET stu_status = 'ACTIVE' WHERE stu_id = 913;
+UPDATE students SET stu_status = 'ACTIVE' WHERE stu_id = 914;
+UPDATE students SET stu_status = 'ACTIVE' WHERE stu_id = 915;
+UPDATE students SET stu_status = 'ACTIVE' WHERE stu_id = 916;
+UPDATE students SET stu_status = 'ACTIVE' WHERE stu_id = 917;
+UPDATE students SET stu_status = 'ACTIVE' WHERE stu_id = 918;
+UPDATE students SET stu_status = 'ACTIVE' WHERE stu_id = 919;
+UPDATE students SET stu_status = 'ACTIVE' WHERE stu_id = 920;
+
+UPDATE students SET stu_surname = 'Johns' WHERE stu_id = 910;
+UPDATE students SET stu_surname = 'Tripathy' WHERE stu_id = 911;
+UPDATE students SET stu_surname = 'Collier' WHERE stu_id = 912;
+UPDATE students SET stu_surname = 'Luettgen' WHERE stu_id = 913;
+UPDATE students SET stu_surname = 'Reinger' WHERE stu_id = 914;
+UPDATE students SET stu_surname = 'Hammes' WHERE stu_id = 915;
+UPDATE students SET stu_surname = 'Haley' WHERE stu_id = 916;
+UPDATE students SET stu_surname = 'Franecki' WHERE stu_id = 917;
+UPDATE students SET stu_surname = 'Denesik' WHERE stu_id = 918;
+UPDATE students SET stu_surname = 'Grady' WHERE stu_id = 919;
+UPDATE students SET stu_surname = 'Franecki' WHERE stu_id = 920;
+
+UPDATE students SET stu_name = 'Bennett' WHERE stu_id = 910;
+UPDATE students SET stu_name = 'Aryaman' WHERE stu_id = 911;
+UPDATE students SET stu_name = 'Immanuel' WHERE stu_id = 912;
+UPDATE students SET stu_name = 'Dayton' WHERE stu_id = 913;
+UPDATE students SET stu_name = 'Courtney' WHERE stu_id = 914;
+UPDATE students SET stu_name = 'Retta' WHERE stu_id = 915;
+UPDATE students SET stu_name = 'Monte' WHERE stu_id = 916;
+UPDATE students SET stu_name = 'Ryann' WHERE stu_id = 917;
+UPDATE students SET stu_name = 'Shayne' WHERE stu_id = 918;
+UPDATE students SET stu_name = 'Skylar' WHERE stu_id = 919;
+UPDATE students SET stu_name = 'Idell' WHERE stu_id = 920;
+
+UPDATE instructors SET inct_surname = 'Sai' WHERE inct_id = 1;
+UPDATE instructors SET inct_surname = 'Smithens' WHERE inct_id = 2;
+UPDATE instructors SET inct_surname = 'Johnson' WHERE inct_id = 3;
+UPDATE instructors SET inct_surname = 'Brown' WHERE inct_id = 4;
+UPDATE instructors SET inct_surname = 'Davidson' WHERE inct_id = 5;
+UPDATE instructors SET inct_surname = 'Evans' WHERE inct_id = 6;
+UPDATE instructors SET inct_surname = 'Nolan' WHERE inct_id = 7;
+UPDATE instructors SET inct_surname = 'Greeny' WHERE inct_id = 8;
+UPDATE instructors SET inct_surname = 'Harris' WHERE inct_id = 9;
+UPDATE instructors SET inct_surname = 'Irving' WHERE inct_id = 10;
+UPDATE instructors SET inct_surname = 'Johnson' WHERE inct_id = 11;
+UPDATE instructors SET inct_surname = 'Brad' WHERE inct_id = 12;
+UPDATE instructors SET inct_surname = 'Lee' WHERE inct_id = 13;
+UPDATE instructors SET inct_surname = 'Martini' WHERE inct_id = 14;
+UPDATE instructors SET inct_surname = 'Nelson' WHERE inct_id = 15;
+
+UPDATE instructors SET inct_name = 'Sonit' WHERE inct_id = 1;
+UPDATE instructors SET inct_name = 'Miya' WHERE inct_id = 2;
+UPDATE instructors SET inct_name = 'Alice' WHERE inct_id = 3;
+UPDATE instructors SET inct_name = 'Bob' WHERE inct_id = 4;
+UPDATE instructors SET inct_name = 'Charles' WHERE inct_id = 5;
+UPDATE instructors SET inct_name = 'Diana' WHERE inct_id = 6;
+UPDATE instructors SET inct_name = 'Eve' WHERE inct_id = 7;
+UPDATE instructors SET inct_name = 'Frankt' WHERE inct_id = 8;
+UPDATE instructors SET inct_name = 'Grace' WHERE inct_id = 9;
+UPDATE instructors SET inct_name = 'Hank' WHERE inct_id = 10;
+UPDATE instructors SET inct_name = 'Ivy' WHERE inct_id = 11;
+UPDATE instructors SET inct_name = 'Jack' WHERE inct_id = 12;
+UPDATE instructors SET inct_name = 'Hinata' WHERE inct_id = 13;
+UPDATE instructors SET inct_name = 'Leo' WHERE inct_id = 14;
+UPDATE instructors SET inct_name = 'Mona' WHERE inct_id = 15;
+
+UPDATE permissions SET best_subject = 'SQL' WHERE stu_id = 911;
+UPDATE permissions SET best_subject = 'English' WHERE stu_id = 912;
+UPDATE permissions SET best_subject = 'Mental Ability' WHERE stu_id = 913;
+UPDATE permissions SET best_subject = 'Warehousing' WHERE stu_id = 914;
+UPDATE permissions SET best_subject = 'Psychology' WHERE stu_id = 915;
+UPDATE permissions SET best_subject = 'Flight' WHERE stu_id = 916;
+UPDATE permissions SET best_subject = 'EVS' WHERE stu_id = 917;
+UPDATE permissions SET best_subject = 'Digital Market' WHERE stu_id = 918;
+UPDATE permissions SET best_subject = 'Supply Chain' WHERE stu_id = 919;
+UPDATE permissions SET best_subject = 'C++' WHERE stu_id = 920;
+
+UPDATE `sdbms`.`students` SET `stu_brn_id` = '1001' WHERE (`stu_id` = '911');
+UPDATE `sdbms`.`students` SET `stu_brn_id` = '1003' WHERE (`stu_id` = '910');
+UPDATE `sdbms`.`students` SET `stu_brn_id` = '1015' WHERE (`stu_id` = '912');
+UPDATE `sdbms`.`students` SET `stu_brn_id` = '1010' WHERE (`stu_id` = '913');
+UPDATE `sdbms`.`students` SET `stu_brn_id` = '1009' WHERE (`stu_id` = '914');
+UPDATE `sdbms`.`students` SET `stu_brn_id` = '1003' WHERE (`stu_id` = '915');
+UPDATE `sdbms`.`students` SET `stu_brn_id` = '1001' WHERE (`stu_id` = '916');
+UPDATE `sdbms`.`students` SET `stu_brn_id` = '1004' WHERE (`stu_id` = '917');
+UPDATE `sdbms`.`students` SET `stu_brn_id` = '1016' WHERE (`stu_id` = '918');
+UPDATE `sdbms`.`students` SET `stu_brn_id` = '1011' WHERE (`stu_id` = '919');
+UPDATE `sdbms`.`students` SET `stu_brn_id` = '1015' WHERE (`stu_id` = '920');
